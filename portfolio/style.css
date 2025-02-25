@@ -1,0 +1,317 @@
+body {
+    margin: 0;
+    background-color: #000814;
+}
+
+.navigation ul {
+    list-style-type: none;
+    padding-top: 9px;
+    font-size: large;
+}
+
+.navigation ul li {
+    display: inline;
+    padding: 12px;
+    margin: 10px;
+    color: aliceblue;
+    transition: 2s;
+    cursor: pointer;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+.navigation ul li:hover {
+    color: #00b4d8;
+    text-decoration: underline cyan;
+}
+
+#para {
+    margin-left: 10px; 
+    color: aliceblue;
+    font-family: "Sofia", sans-serif;
+    font-size: 20px;
+    transition: 2s;
+    cursor: pointer;
+    text-decoration: wavy;
+}
+
+#para:hover {
+    color: cyan;
+}
+
+.navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: #000814 ;
+    opacity: .7;
+}
+
+.first {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 50px);
+    padding: 20px;
+}
+
+.welcome {
+    display: flex;
+    align-items: center;
+    text-align: left;
+    padding: 20px;
+    color: aliceblue;
+    background-color: #000814;
+    border: transparent 3px solid;
+    width: 1000px;
+}
+
+.text-content {
+    flex: 1;
+    padding-right: 20px;
+}
+
+.welcome h1, .welcome h2 {
+    margin: 20px 0;
+    font-family: "Josefin Sans", sans-serif;
+}
+.welcome p {
+    font-size: 30px;
+    font-family: "Caveat", cursive;
+}
+
+button {
+    font-size: 30px;
+    border-radius: 30px;
+    color: #000814;
+    background-color: cyan;
+    font-family: "Concert One", sans-serif;
+    font-weight: 400;
+    border: 2px #000814 solid;
+}
+
+#image-container {
+    max-width: 40%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+    padding-left: 100px;
+}
+#image:hover{
+    cursor: pointer;
+}
+.aboutme{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px 200px;
+    height: 100%;
+    padding: 40px;
+    color: #000814;
+    background-color:rgba(0, 255, 255, 0.621) ;
+    border-radius: 40px;
+    width: 1100px;   
+}
+.info{
+    color: 000814;
+    display: flex;
+    justify-content: center;
+    border: #000814 4px solid ;
+    border-radius: 30px;
+}
+#me{
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    margin: -10px 40px;
+}
+#one{
+    max-width: 100%;
+    height: 290px;
+    border-radius: 120%;
+    padding-top: 60px;
+}
+#h1{
+    font-family: "Kanit", sans-serif;
+    font-size: 30px;
+    text-decoration: underline;
+    text-align: center;
+    margin-right: 200px;
+}
+#p{
+    font-family: "Kanit", sans-serif;
+    font-size: x-large;
+    line-height: -5px;
+}
+#h3{
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 25px;
+}
+#navi{
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    font-family: "Josefin Sans", sans-serif;
+    transition: 1s ease-in-out;
+}
+#navi:hover{
+    color: cyan;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.square{
+    color: aliceblue;
+    border: aliceblue 2px solid;
+    padding: 20px;
+    margin: 20px 20px;
+    transition: 1s ease-in-out;
+    border-radius: 30px;
+
+}
+.skills{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    margin: 20px 20px;
+    height: 600px;
+    width: 494px;
+    flex-wrap: wrap;
+
+}
+#name1,#name,#icon{
+    text-align: center;
+    font-weight: 400;
+    padding: 2px;
+}
+#name{
+    font-family: "Josefin Sans", sans-serif;
+
+}
+#name1{
+    font-family: "Josefin Sans", sans-serif;
+    margin: 20px;
+
+}
+#icon{
+    border: 1px cyan solid;
+    border-radius: 30px;
+}
+.square:hover{
+    transform: scale(1.1);
+    background-color: cyan;
+    color: #000814;
+    cursor: pointer;
+
+}
+#project{
+    color: cyan;
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    margin: 20px 20px;
+    font-size: 70px;
+    text-align: center;
+}
+.hack{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: inherit;
+    flex-direction: row;
+    margin: 20px 20px;
+    height: 300px;
+    width: 1494px;
+
+
+}
+.num{
+    color: aliceblue;
+    border: aliceblue 2px solid;
+    padding: 20px;
+    margin: 20px 20px;
+    border-radius: 30px;
+
+}
+.num:hover{
+    transform: scale(1.1);
+    background-color: cyan;
+    color: #000814;
+    cursor: pointer;
+    transition: 1s ease-in-out;
+
+}
+.contact {
+    font-family: Arial, sans-serif;
+    background-color: #000814;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.contact-container {
+    text-align: center;
+    padding: 50px;
+    background-color: rgba(240, 248, 255, 0.601);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    width: 80%;
+    max-width: 800px;
+}
+.contact-container h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+    color: #000814;
+}
+.contact-container p {
+    font-size: 16px;
+    color: #000814;
+    margin-bottom: 40px;
+    font-family: "Space Grotesk", sans-serif;
+}
+.contact-details {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.contact-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 150px;
+}
+.icon {
+    background-color: cyan;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    color: #000814;
+    margin-bottom: 10px;
+}
+.text p {
+    margin: 5px 0;
+    font-family: "Space Grotesk", sans-serif;
+}
+.text a {
+    text-decoration: none;
+    color: #000814;
+    font-family: "Space Grotesk", sans-serif;
+}
+.text a:hover {
+    color: #007bff;
+    font-family: "Space Grotesk", sans-serif;
+}

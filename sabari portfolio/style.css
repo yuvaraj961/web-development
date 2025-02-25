@@ -1,0 +1,158 @@
+body{
+    height: 100px;
+    background: linear-gradient(
+      to right,
+      #fff6e9 0%,
+      #fff6e9 75%,
+      rgb(0, 190, 89) 50%,
+      rgb(0, 190, 89) 50%
+    );
+
+}
+
+.navigation ul {
+    list-style-type: none;
+    padding-top: 9px;
+    font-size: large;
+}
+
+.navigation ul li {
+    display: inline;
+    padding: 12px;
+    margin: 10px;
+    color: black;
+    transition:  2s;
+    cursor: pointer;
+    font-family: "Concert One", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    font-size: large;
+}
+
+.navigation ul li:hover {
+    text-decoration: underline black;
+}
+
+#para {
+    margin: 5px; 
+    cursor: pointer;
+    text-decoration: wavy;
+    transition: 1s ease-in;
+}
+
+#para:hover {
+    color: rgb(0, 97, 19);
+    transform: scale(0.9);
+}
+
+.navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    top: 0;
+
+}
+#para1 {
+    margin-right: 20px; 
+    margin-top: 10px;
+    font-family: "Sofia", sans-serif;
+    font-size: 20px;
+    transition: 2s;
+    cursor: pointer;
+    text-decoration: wavy;
+}
+#para1{
+    border-radius: 15px;
+    color: black;
+    background-color:#fff6e9 ;
+    border: 2px solid black;
+    height: 40px;
+    width: 120px;
+    font-family: "Space Grotesk", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+#para{
+    color: rgb(0, 190, 89);
+    font-size: 53px;
+    font-family: "Overlock SC", sans-serif;
+    font-weight: 800;
+}
+.first {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 50px);
+    padding: 20px;
+}
+
+.welcome {
+    display: flex;
+    align-items: center;
+    text-align: left;
+    padding: 20px;
+    color: black;
+    border: transparent 3px solid;
+    width: 1257px;
+}
+
+.text-content {
+    flex: 1;
+    padding-right: 20px;
+}
+
+.welcome h1, .welcome h2 {
+    margin: 20px 0;
+    font-family: "Josefin Sans", sans-serif;
+}
+.welcome p {
+    font-size: 30px;
+    font-family: "Itim", cursive;
+}
+
+button {
+    font-size: 30px;
+    border-radius: 30px;
+    color: #000814;
+    background-color: transparent;
+    font-family: "Concert One", sans-serif;
+    font-weight: 400;
+    border: 2px #000814 solid;
+}
+
+#image-container {
+    max-width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    cursor: pointer;
+    transition: 0.5s;
+
+}
+#image-container:hover{
+    transform: scale(0.9);
+}
+
+#image {
+    max-width: 100%;
+    height: auto;
+}
+#head1{
+    font-size: 53px;
+}
+#head2{
+    font-size: 40px;
+}
+#search{
+    border-radius: 20px;
+    border: #000814 2px solid;
+    width: 300px;
+    height: 40px;
+    background-color: rgba(255, 255, 255, 0.637);
+
+}
+::placeholder{
+    color: black;
+    word-spacing: 10px;
+    padding: 20px;
+}
